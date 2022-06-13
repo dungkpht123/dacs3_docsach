@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TD Book</string>
+    <string name="msg_token_fmt" />
+    <string name="new_user_signup">New User?<b>SignUp</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rating_reviews"><![CDATA[Rating & Reviews]]></string>
+</resources>

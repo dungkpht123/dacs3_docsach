@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "316175339285",
+    "project_id": "td-book",
+    "storage_bucket": "td-book.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316175339285:android:3a973f96e88c17c5c7e31c",
+        "android_client_info": {
+          "package_name": "com.example.doctruyen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316175339285-4pifek4ap3f4qgmub4l5mcd0q815q8ln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzHEjTYv9orcvvzzBE27vRwRPqXpSwIMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316175339285-4pifek4ap3f4qgmub4l5mcd0q815q8ln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

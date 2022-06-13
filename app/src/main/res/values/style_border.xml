@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="boTron">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="boGoc">
+        <item name="cornerSize">20%</item>
+    </style>
+    <style name="boVuong">
+        <item name="cornerSize">15dp</item>
+        <item name="cornerFamily">cut</item>
+    </style>
+    <style name="catVuong">
+        <item name="cornerSize">75dp</item>
+        <item name="cornerFamily">cut</item>
+    </style>
+    <style name="cat2DauVuong">
+        <item name="cornerSizeTopLeft">75dp</item>
+        <item name="cornerFamilyBottomLeft">cut</item>
+
+        <item name="cornerSizeBottomRight">75dp</item>
+        <item name="cornerFamilyBottomRight">cut</item>
+    </style>
+</resources>

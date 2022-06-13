@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:background="@drawable/card_bg">
+
+    <ImageView
+        android:id="@+id/img_author_lib"
+        android:layout_width="95dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/recentimage1"
+        />
+
+    <TextView
+        android:id="@+id/name_author_lib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:text="Giao tiep khong kho"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/img_author_lib"
+        app:layout_constraintTop_toTopOf="@+id/img_author_lib" />
+
+    <TextView
+        android:id="@+id/best_auditor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="J.Renwick"
+        android:textColor="@color/gray"
+        app:layout_constraintStart_toStartOf="@+id/name_author_lib"
+        app:layout_constraintTop_toBottomOf="@+id/name_author_lib" />
+
+    <TextView
+        android:id="@+id/views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:shadowColor="@color/red_dark"
+        android:text="5.0 (1850)"
+        android:textColor="@color/red_dark"
+        app:layout_constraintBottom_toBottomOf="@+id/ratingBar2"
+        app:layout_constraintStart_toEndOf="@+id/ratingBar2"
+        app:layout_constraintTop_toTopOf="@+id/ratingBar2" />
+
+    <TextView
+        android:id="@+id/descAuthor_lib"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Day la mot cuon sach kha oki"
+        android:textColor="@color/gray"
+        app:layout_constraintBottom_toBottomOf="@+id/img_author_lib"
+        app:layout_constraintStart_toStartOf="@+id/ratingBar2"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar2"
+        android:maxLength="40"
+        />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+        android:layout_width="82dp"
+        android:layout_height="15dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="8dp"
+        android:numStars="5"
+        android:progressTint="@color/yello"
+        android:rating="4.5"
+        android:secondaryProgressTint="@color/red_light"
+        android:stepSize=".5"
+        app:layout_constraintStart_toStartOf="@+id/best_auditor_name"
+        app:layout_constraintTop_toBottomOf="@+id/best_auditor_name" />
+
+    <ImageButton
+        android:id="@+id/btn_saveBook"
+        android:layout_width="23dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ic_delete_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
